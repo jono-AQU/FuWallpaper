@@ -1,23 +1,26 @@
 {
-    "name": "FU Wallpaper",
-    "short_name": "Wallpaper",
-    "description":"A PWA that sits on the desktop behind all the other windows and changes the background, hiding the dumb wallpaper your sysadmin puts there.",
-    "start_url":"/",
-    "icons": [ 
-        {     
-          "src": "72x72-11947-middle-finger-light-skin-tone-icon.png", 
-          "sizes": "72x72", 
-          "type": "image/png" 
-        }, 
-        { 
-          "src": "512x512-11947-middle-finger-light-skin-tone-icon.png", 
-          "sizes": "512x512", 
-          "type": "image/png" 
-        } 
-      ],
-    "display": "fullscreen", 
-    "orientation": "landscape", 
-    "theme_color": "#66CDAA",
-    "background_color":"#FAF0E6",
-    "display_override": ["window-controls-overlay"]
+  "manifest_version": 3,  
+  "name": "FU Wallpaper",
+  "short_name": "Wallpaper",
+  "description":"A PWA that sits on the desktop behind all the other windows and changes the background, hiding the dumb wallpaper your sysadmin puts there.",
+  "start_url":"/",
+  "icons": [ 
+    {     
+      "src": "72x72-11947-middle-finger-light-skin-tone-icon.png", 
+      "sizes": "72x72", 
+      "type": "image/png" 
+    }, 
+    { 
+      "src": "512x512-11947-middle-finger-light-skin-tone-icon.png", 
+      "sizes": "512x512", 
+      "type": "image/png" 
+    } 
+  ],
+  "display": "fullscreen", 
+  "orientation": "landscape", 
+  "theme_color": "#66CDAA",
+  "background_color":"#FAF0E6",
+  "display_override": ["window-controls-overlay"],
+  "permissions": [],
+  "minimum_chrome_version": "86"
 }

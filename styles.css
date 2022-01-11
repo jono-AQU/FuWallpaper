@@ -1,0 +1,27 @@
+body {
+    background-image: url("Wallpapers/1.jpg");
+    background-size:cover;
+}
+
+.container {
+    height: '-webkit-fill-available';
+    width: '-webkit-fill-available';
+    padding-top: 20%;
+    border: 1px solid red;
+    position: relative;
+    display:inline-block
+  }
+  
+  .container>img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: contain;
+    object-position: center center;
+  }
+  
+  
+  .image-1 {
+    right: 0;
+    bottom: 0;
+  }
