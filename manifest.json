@@ -18,5 +18,6 @@
     "display": "fullscreen", 
     "orientation": "landscape", 
     "theme_color": "#66CDAA",
-    "background_color":"#FAF0E6"
+    "background_color":"#FAF0E6",
+    "display_override": ["window-controls-overlay"]
 }
