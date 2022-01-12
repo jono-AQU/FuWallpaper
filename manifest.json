@@ -3,7 +3,7 @@
   "name": "FU Wallpaper",
   "short_name": "Wallpaper",
   "description":"A PWA that sits on the desktop behind all the other windows and changes the background, hiding the dumb wallpaper your sysadmin puts there.",
-  "start_url":"/",
+  "start_url":"/index.html",
   "icons": [ 
     {     
       "src": "72x72-11947-middle-finger-light-skin-tone-icon.png", 
